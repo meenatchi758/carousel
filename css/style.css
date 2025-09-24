@@ -6,7 +6,7 @@ body {
 .carousel-img {
   height: 400px;
   object-fit: cover;
-  border-radius: 12px;
+ 
 }
 
 /* Optional: add shadow */
