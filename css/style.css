@@ -1,0 +1,39 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.carousel-img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Optional: add shadow */
+.carousel-inner {
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  border-radius: 30px;
+}
+/* Make carousel control buttons bigger */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 80px;        
+  height: 80px;       
+  top: 50%;           
+  transform: translateY(-50%);
+  background-color:black;
+  border-radius: 50%; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;      
+  height: 40px;
+  background-size: 100%, 100%;
+}
+
+/* Optional: hover effect */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
